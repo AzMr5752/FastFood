@@ -110,10 +110,6 @@ async def til_tanlash(message:types.Message):
 async def til_tanlash(message:types.Message):
     await message.answer("menu:",reply_markup=b_menu )
 
-@dp.message_handler(text="MANDS tog'risida malumot♥️")
-async def til_tanlash(message:types.Message):
-    await message.answer("MANDS brendi dunyodagi eng oldi brendlaridan🏆🥇:",reply_markup=b_menu )
-
 @dp.message_handler(text="Sozlamalar⚒")
 async def til_tanlash(message:types.Message):
     await message.answer("ok:",reply_markup=b_menu )
