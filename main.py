@@ -591,6 +591,7 @@ async def til_tanlash(call:CallbackQuery):
         photo=open("images/1263.jpg","rb"),
         caption="""Narxi: 31 000 so'm
 Miqdorini tanlang yoki kiriting""",reply_markup=pp_nopka)
+
     
 
 
@@ -693,46 +694,60 @@ async def til_tanlash(call:CallbackQuery):
 
 @dp.callback_query_handler(text="bir")
 async def til_tanlash(call:CallbackQuery):
-    await call.answer("Buyurtmangiz qabul qilindi❤️",show_alert=True )
+    await call.answer("Buyurtmangiz karzinkaga qoshildi❤️",show_alert=True )
 
 @dp.callback_query_handler(text="ikki")
 async def til_tanlash(call:CallbackQuery):
-    await call.answer("Buyurtmangiz qabul qilindi❤️",show_alert=True )
+    await call.answer("Buyurtmangiz karzinkaga qoshildi❤️",show_alert=True )
 
 @dp.callback_query_handler(text="uch")
 async def til_tanlash(call:CallbackQuery):
-    await call.answer("Buyurtmangiz qabul qilindi❤️",show_alert=True )
+    await call.answer("Buyurtmangiz karzinkaga qoshildi❤️",show_alert=True )
 
 @dp.callback_query_handler(text="tor")
 async def til_tanlash(call:CallbackQuery):
-    await call.answer("Buyurtmangiz qabul qilindi❤️",show_alert=True )
+    await call.answer("Buyurtmangiz karzinkaga qoshildi❤️",show_alert=True )
 
 @dp.callback_query_handler(text="besh")
 async def til_tanlash(call:CallbackQuery):
-    await call.answer("Buyurtmangiz qabul qilindi❤️",show_alert=True )
+    await call.answer("Buyurtmangiz karzinkaga qoshildi❤️",show_alert=True )
 
 @dp.callback_query_handler(text="olti")
 async def til_tanlash(call:CallbackQuery):
-    await call.answer("Buyurtmangiz qabul qilindi❤️",show_alert=True )
+    await call.answer("Buyurtmangiz karzinkaga qoshildi❤️",show_alert=True )
 
 
 @dp.callback_query_handler(text="yetti")
 async def til_tanlash(call:CallbackQuery):
-    await call.answer("Buyurtmangiz qabul qilindi❤️",show_alert=True )
+    await call.answer("Buyurtmangiz karzinkaga qoshildi❤️",show_alert=True )
 
 
 @dp.callback_query_handler(text="sakkiz")
 async def til_tanlash(call:CallbackQuery):
-    await call.answer("Buyurtmangiz qabul qilindi❤️",show_alert=True )
+    await call.answer("Buyurtmangiz karzinkaga qoshildi❤️",show_alert=True )
 
 
 @dp.callback_query_handler(text="toqqiz")
 async def til_tanlash(call:CallbackQuery):
-    await call.answer("Buyurtmangiz qabul qilindi❤️",show_alert=True )
+    await call.answer("Buyurtmangiz karzinkaga qoshildi❤️",show_alert=True )
 
 
 
 
 
 if __name__ == '__main__':
-    executor.start_polling(dp, skip_updates=True)
+    executor.start_polling(dp)
+
+##############################################################karzinka
+@dp.callback_query_handler(text="karz")
+async def til_tanlash(call:CallbackQuery):
+    await call.message.answer("quyidagilardan birini tanlang",reply_markup=karz )
+
+
+
+@dp.callback_query_handler(text="orqaga")
+async def til_tanlash(call:CallbackQuery):
+    await call.message.answer("quyidagilardan birini tanlang",reply_markup=menu )
+
+
+

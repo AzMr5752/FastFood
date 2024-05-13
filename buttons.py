@@ -112,7 +112,9 @@ menu=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("Ichimliklar🍸🥃🍷",callback_data="ichimlik"),
+            InlineKeyboardButton("Karzinka🛒", callback_data="karz")
 		],
+        
 
 
 	],
@@ -131,6 +133,7 @@ lavash_menu =InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back1"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 
@@ -150,6 +153,7 @@ ll_menu=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back2"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 	],
@@ -169,6 +173,7 @@ gg_menu=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back4"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 	],
@@ -202,6 +207,7 @@ kk_nopka=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back3"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 
@@ -222,6 +228,7 @@ hotdog_menu=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back5"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 	],
@@ -247,6 +254,7 @@ kkk_nopka=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back6"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 
@@ -266,6 +274,7 @@ haggi_menu=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back7"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 	]
@@ -291,6 +300,7 @@ hag_nopka=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back8"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 
@@ -314,6 +324,7 @@ toster_menu=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back9"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 	],
@@ -339,6 +350,7 @@ tos_nopka=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back10"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 
@@ -361,6 +373,7 @@ gam_menu=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back11"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 	],
@@ -386,6 +399,7 @@ gam_nopka=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back12"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 
@@ -404,7 +418,8 @@ clap_menu=InlineKeyboardMarkup(
 
 		],
 		[
-			InlineKeyboardButton("ortga🔙",callback_data="back13"),	
+			InlineKeyboardButton("ortga🔙",callback_data="back13"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")	
 		],
 
 	],
@@ -430,6 +445,7 @@ clap_nopka=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back14"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 
@@ -451,7 +467,8 @@ suv_menu=InlineKeyboardMarkup(
 			
 		],
 		[
-			InlineKeyboardButton("ortga🔙",callback_data="back15"),	
+			InlineKeyboardButton("ortga🔙",callback_data="back15"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")	
 		]
 
 	]
@@ -471,6 +488,7 @@ gaz_menu=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back18"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 
@@ -497,6 +515,7 @@ gaz_nopka=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back19"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 
@@ -525,6 +544,7 @@ blis_menu=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back177"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 	],
@@ -551,6 +571,7 @@ suv_nopka=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back16"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 
@@ -568,7 +589,7 @@ kf_menu=InlineKeyboardMarkup(
 
 		[	
 			InlineKeyboardButton("ortga🔙",callback_data="back20"),
-
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 
 		],
 
@@ -595,6 +616,7 @@ kf_nopka=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back21"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 
@@ -614,6 +636,7 @@ shrn_menu=InlineKeyboardMarkup(
 
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back22"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 	],
@@ -638,6 +661,7 @@ pp_nopka=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back23"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 
@@ -660,6 +684,7 @@ bshq_menu=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back24"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 	],
@@ -675,6 +700,7 @@ pizza_menu=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back25"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 	],
@@ -701,6 +727,7 @@ pzza_nopka=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back26"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 
@@ -730,6 +757,7 @@ kdp_nopka=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="back25"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="karz")
 		],
 
 
@@ -769,6 +797,7 @@ k_nopka=InlineKeyboardMarkup(
 		],
 		[
 			InlineKeyboardButton("ortga🔙",callback_data="orqaga"),
+            InlineKeyboardButton("korzinka🛒", callback_data ="kazn")
 		],
 
 
